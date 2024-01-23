@@ -1,3 +1,3 @@
 output "azs" {
-    value = module.roboshop.azs
+  value = module.roboshop.azs
 }
