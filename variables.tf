@@ -6,12 +6,12 @@ variable "common_tags" {
     Terraform = true
    }
 }
-variable "rvpc_tags" {
+variable "vpc_tags" {
     type = map
     default = {}
 }
 
-variable "rvpc_cidr" {
+variable "vpc_cidr" {
     default = "10.0.0.0/16"
 }
 variable "project_name" {
